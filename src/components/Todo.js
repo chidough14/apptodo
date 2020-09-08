@@ -62,7 +62,7 @@ function Todo() {
     }
 
   return (
-    <div className="container">
+    <div className="container mt-5">
         <form onSubmit={onCreateTask}>
             <div className="form-group">
                 <input className="form-control" placeholder="Title" type="text" onChange={onChangeTitle} value={task} /><br></br>
